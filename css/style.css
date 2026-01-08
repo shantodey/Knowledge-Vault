@@ -220,6 +220,7 @@ nav ul li a{
 
 .rttmc{
     background-color: #F7F6F2;
+    margin-bottom: 120px;
 }
 .rttmc__main{
     padding: 80px 0;
@@ -261,5 +262,34 @@ nav ul li a{
 
 footer{
     background-color: #001931;
-    
+
+}
+.footer__container{
+    padding: 120px 0 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer__content ul{
+    display: flex;
+    gap: 16px;
+}
+.footer__content ul li a{
+    color: white;
+    font-size: 17px;
+}
+footer hr{
+    border: none;
+    border-top: 2px solid #2e4256; 
+}
+footer .copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 30px 0;
 }
