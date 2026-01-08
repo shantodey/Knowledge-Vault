@@ -44,6 +44,7 @@ nav ul li a{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -56,6 +57,7 @@ nav ul li a{
     text-align: center;
 }
 .hero__section .hb1{
+    cursor: pointer;
     border: none;
     border-radius: 20px;
     background-color: white;
@@ -74,7 +76,7 @@ nav ul li a{
     text-transform: capitalize;
 }
 .hero__section h1 span{
-    color: #469165;
+    color: #2faa64;
 }
 .hero__section p{
     margin-top: 16px;
@@ -90,16 +92,22 @@ nav ul li a{
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
     background-color: #469165;
+    font-size: 16px;
+    font-weight: 500;
     color: white;
     border: none;
     margin-right: 16px;
+    cursor: pointer;
 }
 .hb3{
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
     background-color: transparent;
+        font-size: 16px;
+    font-weight: 500;
     color: white;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 
@@ -182,13 +190,14 @@ nav ul li a{
     padding-top: 102px;
 }
 .ysbsbd__content .ysbsbd__content__heading{
+    text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
     color: #469165;
     margin-bottom: 16px;
 }
 .ysbsbd__content h2{
-    font-style: Bold;
+    text-transform: capitalize;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -227,6 +236,7 @@ nav ul li a{
     text-align: center;
 }
 .rttmc__main h2{
+    text-transform: capitalize;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -236,9 +246,10 @@ nav ul li a{
     color: #627382;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
 }
 .rttmc__button{
+    cursor: pointer;
     padding: 16px;
     border: none;
     background-color: #469165;
