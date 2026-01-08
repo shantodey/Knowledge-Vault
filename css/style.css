@@ -12,6 +12,9 @@
 img {
     vertical-align: middle;
 }
+body{
+    background-color: #FBFBFB;
+}
 .container{
     margin: 0 auto;
     width: 1360px;
@@ -35,16 +38,114 @@ nav ul li a{
 }
 .nav__button{
     padding: 12px 16px;
-    background-color: #30B868;
+    background-color: #469165;
     border: none;
     border-radius: 4px;
     color: white;
     font-size: 16px;
     font-weight: 600;
 }
+
+
+
+#hero{
+    background: url(../assets/hero-bg.png) no-repeat center/cover;
+    padding: 115.5px 0 179.5px 0;
+}
+.hero__section{
+    text-align: center;
+}
+.hero__section .hb1{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 9.5px 12px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero__section h1{
+    margin-top: 24px;
+    color: white;
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-transform: capitalize;
+}
+.hero__section h1 span{
+    color: #469165;
+}
+.hero__section p{
+    margin-top: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.hb2{
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: #469165;
+    color: white;
+    border: none;
+}
+.hb3{
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
 .inter-uniquifier> {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+
+
+.ndsfd__titel{
+    text-align: center;
+}
+
+
+.ndsfd__cards{
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.ndsfd__card{
+    padding-top: 69.5px;
+    text-align: center;
+    max-width: 322px;
+    max-width: 300px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.ndsfd__card__icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F95555;
+    margin: 0 auto;
+}
+.ndsfd__card h3{
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.ndsfd__card p{
+    margin-top: 16px;
+    padding-bottom: 69px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
 }
