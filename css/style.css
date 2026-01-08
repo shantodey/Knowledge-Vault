@@ -1,11 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
@@ -45,8 +43,14 @@ nav ul li a{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition:.25s
 }
-
+.nav__button:hover{
+    transform:translateY(-4px);
+    background:transparent;
+    border:1px solid black;
+    color: #001931;
+}
 
 
 #hero{
@@ -65,6 +69,11 @@ nav ul li a{
     color: #469165;
     font-size: 16px;
     font-weight: 500;
+    transition:transform .2s ease, box-shadow .2s ease;
+}
+.hb1:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 18px rgba(0,0,0,.25);
 }
 .hero__section h1{
     margin-top: 24px;
@@ -98,18 +107,30 @@ nav ul li a{
     border: none;
     margin-right: 16px;
     cursor: pointer;
+    transition:.25s
+}
+.hb2:hover{
+    transform:translateY(-4px);
+    background:transparent;
+    border:1px solid #fff;
 }
 .hb3{
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
     background-color: transparent;
-        font-size: 16px;
+    font-size: 16px;
     font-weight: 500;
+    height: 44px;
     color: white;
     border: 1px solid white;
     cursor: pointer;
+    transition:.25s
 }
-
+.hb3:hover{
+    transform:translateY(-4px);
+    background:#469165;
+    border:none;
+}
 
 
 #ndsfd{
@@ -258,6 +279,14 @@ nav ul li a{
     color: white;
     border-radius: 5px;
     margin-bottom: 16px;
+    transition:.25s
+}
+
+.rttmc__button:hover{
+    transform:translateY(-4px);
+  background:transparent;
+  color: #627382;
+  border:1px solid black;
 }
 .rttmc__button +p{
     margin-top: 16px;
