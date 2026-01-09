@@ -37,7 +37,7 @@ nav ul li a{
 .nav__button{
     padding: 12px 16px;
     background-color: #469165;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 4px;
     color: white;
     font-size: 16px;
@@ -46,7 +46,7 @@ nav ul li a{
     transition:.25s
 }
 .nav__button:hover{
-    transform:translateY(-4px);
+    transform:translateY(-8px);
     background:transparent;
     border:1px solid black;
     color: #001931;
@@ -72,7 +72,7 @@ nav ul li a{
     transition:transform .2s ease, box-shadow .2s ease;
 }
 .hb1:hover{
-    transform:translateY(-4px);
+    transform:translateY(-10px);
     box-shadow:0 8px 18px rgba(0,0,0,.25);
 }
 .hero__section h1{
@@ -104,7 +104,7 @@ nav ul li a{
     font-size: 16px;
     font-weight: 500;
     color: white;
-    border: none;
+    border: 1px solid transparent;
     margin-right: 16px;
     cursor: pointer;
     transition:.25s
@@ -127,9 +127,9 @@ nav ul li a{
     transition:.25s
 }
 .hb3:hover{
-    transform:translateY(-4px);
+    transform:translateY(-10px);
     background:#469165;
-    border:none;
+    border:1px solid transparent;
 }
 
 
@@ -272,7 +272,7 @@ nav ul li a{
 .rttmc__button{
     cursor: pointer;
     padding: 16px;
-    border: none;
+    border: 1px solid transparent;
     background-color: #469165;
     font-size: 16px;
     font-weight: 600;
